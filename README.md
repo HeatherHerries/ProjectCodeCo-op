@@ -37,7 +37,7 @@ Currently in production.
 
 ### Continued development
 
-## Author
+## Authors
 
 - Heather Herries
 - Terrance Parker

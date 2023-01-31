@@ -16,10 +16,6 @@ The designs were created to the following widths:
 - Dark Blue: #191937
 - Medium Blue: #646A90
 
-### Body Copy
-
-- Font size (paragraph): 15px
-
 ### Font
 
 - Family: [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shad)
