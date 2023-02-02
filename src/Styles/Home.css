@@ -1,0 +1,47 @@
+.hero-section {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
+}
+
+.home-hero-main-img {
+  grid-column: 1 / 13;
+  grid-row: 1 / 10;
+}
+
+.home-hero-logo {
+  grid-column: 1 / 6;
+  grid-row: 1 / 4;
+  position: absolute;
+}
+
+.home-hero-phone-img {
+  grid-column: 1 / 8;
+  grid-row: 4 / 10;
+  position: absolute;
+}
+
+.home-hero-nav {
+  grid-column: 1 / 3;
+  grid-row: 4 / 7;
+  position: absolute;
+}
+
+.home-hero-text {
+  grid-column: 7 / 13;
+  grid-row: 5 / 8;
+  position: absolute;
+}
+
+.join-btn-red {
+  grid-column: 6 / 9;
+  grid-row: 7 / 9;
+  position: absolute;
+}
+
+.social-links {
+  grid-column: 10 / 12;
+  grid-row: 8 / 9;
+  position: absolute;
+}
