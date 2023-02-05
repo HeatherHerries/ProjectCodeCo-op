@@ -1,0 +1,27 @@
+.social-links-container {
+  width: 28vw;
+  padding: 8vw 10vw 0 0;
+  margin-left: -3vw;
+}
+
+.social-links-container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.social-links-container img {
+  width: 4.5vw;
+}
+
+.social-links-container a img{
+  cursor: pointer;
+  transition: 300ms ease-out;
+}
+
+.social-links-container a:hover img {
+ transform: scale(1.2);
+ transition: 300ms ease-in;
+}
+
