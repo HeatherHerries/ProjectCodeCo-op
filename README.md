@@ -6,11 +6,11 @@ Project Code Co-op
 - [Build Status](#build-status)
 - [Screenshot](#screenshot)
 - [Links](#links)
-- [My process](#my-process)
-- [Built with](#built-with)
-- [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
-- [Author](#author)
+- [Our Process](#my-process)
+- [Built With...](#built-with)
+- [What We Learned](#what-i-learned)
+- [Continued Development](#continued-development)
+- [Authors](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -23,9 +23,9 @@ Currently in production.
 
 ### Links
 
-## Our process
+## Our Process
 
-### Built with
+### Built With...
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -33,9 +33,9 @@ Currently in production.
 - CSS Grid
 - React
 
-### What I learned
+### What We Learned
 
-### Continued development
+### Continued Development
 
 ## Authors
 
