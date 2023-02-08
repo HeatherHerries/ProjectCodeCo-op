@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import "../Styles/Merch.css";
+import JoinBtnRed from "../Components/JoinBtnRed";
 
-function Merch() {
+export default function Merch(props) {
   return (
-    <div>
-      <h1>Merch</h1>
-    </div>
-  )
+    <>
+      <div className="merch-container">
+        <div className="merch-hero">
+          <h1>Merch</h1>
+          <JoinBtnRed />
+        </div>
+      </div>
+    </>
+  );
 }
-
-export default Merch

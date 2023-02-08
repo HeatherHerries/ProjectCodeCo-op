@@ -1,0 +1,14 @@
+.contactUs-container {
+  background-color: #453e42;
+  height: 100vw;
+}
+.contactUs-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  font-family: "Orbitron";
+  font-weight: 500;
+  font-size: 144px;
+  color: #cbcbcb;
+}

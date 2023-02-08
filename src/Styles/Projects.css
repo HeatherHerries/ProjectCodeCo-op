@@ -1,0 +1,13 @@
+.projects-container {
+  background-color: #453e42;
+  height: 100vh;
+}
+
+.projects-hero {
+  font-family: "Shadows Into Light";
+  font-weight: 400;
+  line-height: 151px;
+  text-align: center;
+
+  color: #cbcbcb;
+}
