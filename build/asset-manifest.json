@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2e3cf1f.css",
+    "main.js": "/static/js/main.53adf72b.js",
+    "static/media/HomeHeroDT.svg": "/static/media/HomeHeroDT.784c5e747838de28154d8b2909db0202.svg",
+    "static/media/SlackIcon.svg": "/static/media/SlackIcon.97ae37d94aca559a2434797f42da5700.svg",
+    "static/media/GitHubIcon.svg": "/static/media/GitHubIcon.725283291e408a8b7ed044375faef0d0.svg",
+    "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.b8dc561cb2dbfaa87b63259507d23754.svg",
+    "index.html": "/index.html",
+    "main.c2e3cf1f.css.map": "/static/css/main.c2e3cf1f.css.map",
+    "main.53adf72b.js.map": "/static/js/main.53adf72b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2e3cf1f.css",
+    "static/js/main.53adf72b.js"
+  ]
+}
