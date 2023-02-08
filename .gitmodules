@@ -1,3 +1,3 @@
-[submodule "include/ProjectCodeCo-op"]
-	path = include/ProjectCodeCo-op
+[submodule "ProjectCodeCo-op"]
+	path = ProjectCodeCo-op
 	url = https://github.com/HeatherHerries/ProjectCodeCo-op.git
