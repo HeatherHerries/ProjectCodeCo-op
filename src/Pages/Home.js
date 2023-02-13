@@ -27,7 +27,7 @@ function Home() {
           <p>Bringing skilled designers and developers together with a goal to focus on real-world collaborative projects and challenges that they are exploding to show off.</p>
         </div>
 
-        <div className="join-btn-red">
+        <div className='hero-button'>
           <JoinBtnRed />
         </div>
 

@@ -54,7 +54,7 @@
   line-height: 2.78vw;
 }
 
-.join-btn-red {
+.hero-button {
   grid-column: 4 / 5;
   grid-row: 4 / 5;
   position: absolute;

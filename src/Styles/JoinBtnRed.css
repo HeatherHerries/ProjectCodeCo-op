@@ -1,10 +1,20 @@
-button {
+.join-btn-red {
   background-color: #741714;
   border: none;
-  color: #191937;
   font-family: 'Shadows Into Light', cursive;
   font-size: 2vw;
   height: 8vw;
   width: 14.17vw;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms ease-out;
+}
+
+.join-btn-red a {
+  text-decoration: none;
+  color:#191937;
+}
+.join-btn-red:hover {
+  transform: scale(1.08);
+  transition: 300ms ease-in;
 }
