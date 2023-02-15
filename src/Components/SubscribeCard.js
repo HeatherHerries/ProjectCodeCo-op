@@ -29,15 +29,16 @@ function SubscribeCard() {
   return (
     <div className='card'>
       <form 
-        onSubmit={handleSubmit(onSubmit)} name="subscribe-form" method="POST" 
-        data-netlify="true"
-        
+        onSubmit={handleSubmit(onSubmit)}
+        name="subscribe"
+        method="post"
         >
+        
         <input 
-          type="hidden"
-          name="form"
-          value="subscribe-form"
-         />
+          type="hidden" 
+          name="form-name" value="subscribe" 
+        />
+
         <div className='instructions'>
           <p className='instructions-text'>Subscribe to our newsletter for updates and tips & tricks.
           </p>
@@ -47,8 +48,8 @@ function SubscribeCard() {
         <div className="input-and-button">
           <input
           className="email-input" 
-          type="text"
-          name="email" 
+          type="email"
+          name="subscribe-email"
           placeholder='   Email'
           {...register('email')}
           />
