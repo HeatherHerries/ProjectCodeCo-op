@@ -4,7 +4,11 @@ import '../Styles/JoinBtnRed.css'
 function JoinBtnRed() {
   return (
     <>
-      <button>Join &#123;projectCode&#125; Co-op</button>
+      <button className='join-btn-red'>
+        <a href="https://www.meetup.com/">
+        Join &#123;projectCode&#125; Co-op
+        </a>
+        </button>
     </>
   )
 }

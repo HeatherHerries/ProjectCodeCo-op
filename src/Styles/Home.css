@@ -1,6 +1,6 @@
 .home-container {
   background-color: #453E42;
-  border-bottom: 0.69vw solid #1D0E0F;
+  
 }
 
 .home-hero {
@@ -9,6 +9,7 @@
   grid-template-columns: 1fr 8fr 3fr 4fr 4fr 1fr;
   grid-template-rows: 6fr 3fr 4fr 3fr 2fr;
   justify-self: stretch;
+  border-bottom: 0.69vw solid #1D0E0F;
 }
 
 .home-hero-main-img {
@@ -53,7 +54,7 @@
   line-height: 2.78vw;
 }
 
-.join-btn-red {
+.hero-button {
   grid-column: 4 / 5;
   grid-row: 4 / 5;
   position: absolute;
@@ -65,4 +66,14 @@
   grid-column: 5 / 6;
   grid-row: 4 / 5;
   position: absolute;
+}
+
+.learn-together-section {
+  border-bottom: 0.69vw solid #1D0E0F;
+}
+
+.learn-together-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.47vw;
 }
