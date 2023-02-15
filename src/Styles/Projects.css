@@ -1,13 +1,27 @@
 .projects-container {
   background-color: #453e42;
-  height: 100vh;
+  height: 115.568vw;
+  border-bottom: 0.69vw solid;
+  display: flex;
 }
 
 .projects-hero {
   font-family: "Shadows Into Light";
   font-weight: 400;
-  line-height: 151px;
-  text-align: center;
-
+  font-size: 3.889vw;
+  line-height: 7.9vw;
   color: #cbcbcb;
+}
+.projects-hero-Image {
+  display: flex;
+  line-height: 2.241vw;
+}
+.projects-hero-text {
+  font-weight: 500;
+  font-size: 1.787vw;
+  line-height: 2.241vw;
+  size: 1.787vw;
+}
+.projects-hero-button {
+  text-align: center;
 }

@@ -4,6 +4,8 @@ import JoinBtnRed from "../Components/JoinBtnRed";
 
 // useState for both development and design Icons then use their pagelinks as the setIcon (future state).
 
+//  use props for blue square Icons62
+
 export default function Learn(props) {
   return (
     <>
