@@ -1,14 +1,11 @@
-.home-container {
-  background-color: #453E42;
-  border-bottom: 0.69vw solid #1D0E0F;
-}
-
 .home-hero {
   display: grid;
   position: relative;
   grid-template-columns: 1fr 8fr 3fr 4fr 4fr 1fr;
   grid-template-rows: 6fr 3fr 4fr 3fr 2fr;
   justify-self: stretch;
+  background-color: #453E42;
+  border-bottom: 0.69vw solid #1D0E0F;
 }
 
 .home-hero-main-img {
