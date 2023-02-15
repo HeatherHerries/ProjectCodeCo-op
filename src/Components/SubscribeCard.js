@@ -30,7 +30,7 @@ function SubscribeCard() {
     <div className='card'>
       <form 
         onSubmit={handleSubmit(onSubmit)}
-        name="subscibe"
+        name="subscribe"
         method="post"
         >
         
