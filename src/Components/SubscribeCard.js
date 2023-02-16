@@ -31,10 +31,13 @@ function SubscribeCard() {
       <form 
         onSubmit={handleSubmit(onSubmit)}
         name="subscribe"
-        method="post"
         >
         
-        <input type="hidden" name="form-name" value="subscribe" />
+        <input 
+          type="hidden" 
+          name="form-name" value="subscribe" 
+        />
+
         <div className='instructions'>
           <p className='instructions-text'>Subscribe to our newsletter for updates and tips & tricks.
           </p>
@@ -45,7 +48,6 @@ function SubscribeCard() {
           <input
           className="email-input" 
           type="email"
-          name="email"
           placeholder='   Email'
           {...register('email')}
           />
