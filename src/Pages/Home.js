@@ -1,11 +1,13 @@
 import React from 'react'
 import '../Styles/Home.css'
 import MainHeroImg from '../Assets/Images/SVGImages/HomeHeroDT.svg'
+import FPImg from '../Assets/Images/SVGImages/GirlWorkingatComputer.svg'
 import LearnTogether from '../Assets/Images/SVGImages/BooksIcon.svg'
 import InnovateTogether from '../Assets/Images/SVGImages/GearsIcon.svg'
 import CelebrateTogether from '../Assets/Images/SVGImages/ChampagneGlassesIcon.svg'
 import HomeNav from '../Components/HomeNav'
 import JoinBtnRed from '../Components/JoinBtnRed'
+import JoinBtnBlue from '../Components/JoinBtnBlue'
 import SocialLinks from '../Components/SocialLinks'
 import LearnTogetherCards from '../Components/LearnTogetherCards'
 import SubscribeCard from '../Components/SubscribeCard'
@@ -63,6 +65,12 @@ function Home() {
         <div className="subscribe">
           <SubscribeCard />
         </div>
+        <div className="home-featured-projects">
+        <h1 className="featured-projects-title">Featured Projects</h1>
+        <p className="featured-projects-text">&#123;projectCode&#125;Co-op team members are working tirelessly on projects to show the world, but don’t want anyone to see what we are capable of until it absolutely perfect! Check back shortly and be ready for your mind to be blown! </p>
+        <img src={FPImg} alt="" className="featured-projects-img" />
+        <div className="featured-projects-btn">
+          <JoinBtnBlue />
       </div>
     </div>
   )

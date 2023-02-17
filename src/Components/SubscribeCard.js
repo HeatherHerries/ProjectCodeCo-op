@@ -13,18 +13,28 @@ function SubscribeCard() {
     email: yup.string().email('Please provide a valid email address.').required('Please provide an email.')
   })
   
-
+  
   const [success, setSuccess] = useState('')
   const { register, handleSubmit, formState: {errors}, reset} = useForm({
     resolver: yupResolver(schema)
   });
 
+  
   const onSubmit = (data) => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(data).toString(),
+      })
+      .then(() => {
+        setSuccess(`Thank you for Subscribing!`)
+    reset();
+
+      })
+      .catch(error => alert(error))
     console.log(data);
-    setSuccess(`Thank you for Subscribing!`)
 
   
-    reset();
   }
   return (
     <div className='card'>
@@ -52,6 +62,7 @@ function SubscribeCard() {
           placeholder='   Email'
           {...register('email')}
           />
+
           <button
           className="subscribe-button"
           type="submit"
