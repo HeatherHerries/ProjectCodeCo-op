@@ -1,11 +1,29 @@
 .merch-container {
+  height: 100vw;
   background-color: #453e42;
+  border-bottom: 0.69vw solid;
 }
 
 .merch-hero {
   font-family: "Shadows Into Light";
   font-weight: 400;
-  font-size: 74px;
-  line-height: 119px;
+  font-size: 3.889vw;
+  line-height: 6.253vw;
   color: #cbcbcb;
+}
+
+.merch-hero-text {
+  font-family: Orbitron;
+  font-size: 1.787vw;
+  font-weight: 500;
+  line-height: 2.26vw;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.merch-hero-image {
+  height: 48.578vw;
+  width: 34.157vw;
+  left: 36.153vw;
+  top: 8.933vw;
+  border-radius: 0px;
 }

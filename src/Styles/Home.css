@@ -1,3 +1,4 @@
+
 .home-hero {
   display: grid;
   position: relative;
@@ -50,7 +51,7 @@
   line-height: 2.78vw;
 }
 
-.join-btn-red {
+.hero-button {
   grid-column: 4 / 5;
   grid-row: 4 / 5;
   position: absolute;
@@ -62,6 +63,16 @@
   grid-column: 5 / 6;
   grid-row: 4 / 5;
   position: absolute;
+}
+
+.learn-together-section {
+  border-bottom: 0.69vw solid #1D0E0F;
+}
+
+.learn-together-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.47vw;
 }
 
 .home-featured-projects {
@@ -110,4 +121,3 @@
   grid-row: 2 / 3;
   margin-left: -10vw;
   margin-top: 35vw;
-}
