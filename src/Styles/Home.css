@@ -67,6 +67,7 @@
 
 .learn-together-section {
   border-bottom: 0.69vw solid #1D0E0F;
+  background-color: #453E42;
 }
 
 .learn-together-cards {
@@ -121,3 +122,4 @@
   grid-row: 2 / 3;
   margin-left: -10vw;
   margin-top: 35vw;
+}

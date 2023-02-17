@@ -65,13 +65,20 @@ function Home() {
         <div className="subscribe">
           <SubscribeCard />
         </div>
-        <div className="home-featured-projects">
-        <h1 className="featured-projects-title">Featured Projects</h1>
-        <p className="featured-projects-text">&#123;projectCode&#125;Co-op team members are working tirelessly on projects to show the world, but don’t want anyone to see what we are capable of until it absolutely perfect! Check back shortly and be ready for your mind to be blown! </p>
+        </div>
+      <div className="home-featured-projects">
+        <h1 className="featured-projects-title">Featured Projects
+        </h1>
+
+        <p className="featured-projects-text">&#123;projectCode&#125;Co-op team members are working tirelessly on projects to show the world, but don’t want anyone to see what we are capable of until it absolutely perfect! Check back shortly and be ready for your mind to be blown! 
+        </p>
+
         <img src={FPImg} alt="" className="featured-projects-img" />
+
         <div className="featured-projects-btn">
-          <JoinBtnBlue />
-      </div>
+            <JoinBtnBlue />
+        </div>
+    </div>
     </div>
   )
 }
