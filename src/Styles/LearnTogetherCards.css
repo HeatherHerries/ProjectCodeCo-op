@@ -1,19 +1,19 @@
-.card {
+.lt-card {
   text-align: center;
 }
 
-.card h1 {
+.lt-card h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 3.06vw;
   color: #E4E6E7;
 }
 
-.card img {
+.lt-card img {
   width: 13.89vw;
   padding-top: 2.47vw;
 }
 
-.card p {
+.lt-card p {
   font-family: 'Orbitron', sans-serif;
   font-size: 1.67vw;
   color: #E4E6E7;
