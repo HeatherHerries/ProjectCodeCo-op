@@ -15,6 +15,7 @@
   text-align: center;
   line-height: 4vw;
   transition: 300ms ease-out;
+  margin-left: 5vw;
 }
 
 .footer-navigation li:hover {

@@ -1,0 +1,20 @@
+.about-us-hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.69vw solid #1D0E0F;
+  background-color: #453E42;
+  height: 105vw;
+}
+
+.about-us-hero img {
+  width: 60vw;
+  padding: 5vw 5vw 5vw 5vw;
+}
+
+.about-us-hero-title {
+  font-family: 'Shadows Into Light', cursive;
+  color: #E4E6E7;
+  font-size: 8vw;
+  padding-right: 5vw;
+}
