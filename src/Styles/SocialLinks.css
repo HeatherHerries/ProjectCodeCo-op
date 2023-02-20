@@ -1,7 +1,7 @@
 .social-links-container {
   width: 28vw;
   padding: 8vw 10vw 0 0;
-  margin-left: -3vw;
+  margin-left: -9vw;
 }
 
 .social-links-container ul {
@@ -12,6 +12,7 @@
 }
 
 .social-links-container img {
+  margin-left: 2vw;
   width: 4.5vw;
 }
 
