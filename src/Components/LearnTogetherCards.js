@@ -3,10 +3,10 @@ import '../Styles/LearnTogetherCards.css'
 
 function LearnTogetherCards(props) {
   return (
-    <div className='card'>
+    <div className='lt-card'>
       <h1>{ props.title }</h1>
       <img src={ props.img } alt={ props.alt } />
-      <p>{ props.text }</p>
+      <p className='lt-card-text'>{ props.text }</p>
     </div>
   )
 }

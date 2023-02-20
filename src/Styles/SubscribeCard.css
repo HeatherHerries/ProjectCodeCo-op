@@ -50,3 +50,12 @@
   color: #741714;
   margin-bottom: -4.10vw;
 }
+
+.subscribe-card {
+  text-align: center;
+}
+
+.subscribe-card p {
+  color: #E4E6E7;
+  padding: 2.47vw 3.47vw;
+}

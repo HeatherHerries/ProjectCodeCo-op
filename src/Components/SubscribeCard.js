@@ -37,7 +37,7 @@ function SubscribeCard() {
   
   }
   return (
-    <div className='card'>
+    <div className='subscribe-card'>
       <form 
         onSubmit={handleSubmit(onSubmit)}
         name="subscibe"

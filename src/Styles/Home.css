@@ -123,3 +123,28 @@
   margin-left: -10vw;
   margin-top: 35vw;
 }
+
+.home-reviews {
+  border-bottom: 0.69vw solid #1D0E0F;
+  background-color: #453E42;
+  height: 81.97vw;
+  padding-top: 21vw;
+}
+
+.home-reviews img{
+  padding-left: 10vw;
+}
+
+.home-reviews p {
+  font-size: 2.3vw;
+  font-family: 'Orbitron', sans-serif;
+  line-height: 4vw;
+  
+}
+
+.home-reviews h3 {
+  font-size: 2vw;
+  padding-left: 30vw;
+  font-family: 'Orbitron', sans-serif;
+}
+

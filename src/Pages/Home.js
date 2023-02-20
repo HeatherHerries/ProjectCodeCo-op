@@ -11,6 +11,7 @@ import JoinBtnBlue from '../Components/JoinBtnBlue'
 import SocialLinks from '../Components/SocialLinks'
 import LearnTogetherCards from '../Components/LearnTogetherCards'
 import SubscribeCard from '../Components/SubscribeCard'
+import ReviewSlider from '../Components/ReviewSlider'
 
 
 function Home() {
@@ -78,6 +79,10 @@ function Home() {
         <div className="featured-projects-btn">
             <JoinBtnBlue />
         </div>
+    </div>
+
+    <div className="home-reviews">
+      <ReviewSlider />
     </div>
     </div>
   )
