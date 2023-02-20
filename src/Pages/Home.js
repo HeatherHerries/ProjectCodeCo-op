@@ -12,6 +12,7 @@ import SocialLinks from '../Components/SocialLinks'
 import LearnTogetherCards from '../Components/LearnTogetherCards'
 import SubscribeCard from '../Components/SubscribeCard'
 import ReviewSlider from '../Components/ReviewSlider'
+import Footer from '../Components/Footer'
 
 
 function Home() {
@@ -83,6 +84,10 @@ function Home() {
 
     <div className="home-reviews">
       <ReviewSlider />
+    </div>
+
+    <div className="home-footer">
+      <Footer />
     </div>
     </div>
   )

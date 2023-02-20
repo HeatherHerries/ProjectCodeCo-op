@@ -7,7 +7,7 @@ import SlackIcon from '../Assets/Images/SVGImages/SlackIcon.svg'
 function SocialLinks() {
   return (
     <div className='social-links-container'>
-      <ul>
+      <ul className="social-links">
         <li>
           <a href="https://www.facebook.com/profile.php?id=100089861145139"><img src={FacebookIcon} alt="Facebook" /></a>
         </li>

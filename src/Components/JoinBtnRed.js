@@ -5,7 +5,7 @@ function JoinBtnRed() {
   return (
     <>
       <button className='join-btn-red'>
-        <a href="https://www.meetup.com/">
+        <a className="button-link"href="https://www.meetup.com/">
         Join &#123;projectCode&#125; Co-op
         </a>
         </button>

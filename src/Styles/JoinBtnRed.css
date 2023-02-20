@@ -11,7 +11,7 @@
   transition: 300ms ease-out;
 }
 
-.join-btn-red a {
+.join-btn-red .button-link {
   text-decoration: none;
   color:#191937;
 }
