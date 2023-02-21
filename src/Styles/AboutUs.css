@@ -22,12 +22,12 @@
 .about-us-our-story1 {
   display: flex;
   align-items: center;
-  border-bottom: 0.69vw solid #1D0E0F;
-  height: 56vw;
+  height: 55.5vw;
 }
 
 .our-story1-ls {
   border-right: 0.45vw solid #1D0E0F;
+  border-bottom:0.45vw solid #1D0E0F;
   background-color: #453E42;
   height: 56vw;
   width: 52.5vw;
@@ -35,6 +35,7 @@
 
 .our-story1-rs {
   background-color: #741714;
+  border-bottom:0.45vw solid #1D0E0F;
   height: 56vw;
   width: 52.5vw;
 }
@@ -119,13 +120,13 @@
 .about-us-our-story2 {
   display: flex;
   align-items: center;
-  border-bottom: 0.69vw solid #1D0E0F;
   height: 56vw;
-  margin-top: .3vw;
+  margin-top: .2vw;
 }
 
 .our-story2-ls {
   border-right: 0.45vw solid #1D0E0F;
+  border-bottom:0.45vw solid #1D0E0F;
   background-color: #6D636D;
   height: 56vw;
   width: 50vw;
@@ -138,6 +139,7 @@
 
 .our-story2-rs {
   background-color: #453E42;
+  border-bottom:0.45vw solid #1D0E0F;
   height: 56vw;
   width: 50vw;
 }
@@ -192,6 +194,105 @@
   font-size: 2.2vw;
 }
 
+.about-us-our-story3 {
+  display: flex;
+  align-items: center;
+  height: 56vw;
+}
 
+.our-story3-ls {
+  border-right: 0.45vw solid #1D0E0F;
+  border-bottom:0.45vw solid #1D0E0F;
+  background-color: #453E42;
+  height: 56vw;
+  width: 50vw;
+}
 
+.os3-top-img {
+  display: block;
+  transform: scaleX(-1);
+  width: 27vw;
+  position: absolute;
+  margin-top: -5vw;
+  margin-left: 4vw;
+}
 
+.os3-top-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 4.6vw;
+  margin-left: 7.7vw;
+  width: 20vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+.os3-bottom-img {
+  display: block;
+  position: absolute;
+  margin-top: 18vw;
+  margin-left: 33vw;
+  transform: scaleX(-1) rotate(180deg);
+  width: 25vw;
+}
+
+.os3-bottom-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 25vw;
+  margin-left: 37.5vw;
+  width: 15vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+.os3-footer {
+  font-family: 'Shadows Into Light', cursive;
+  color: #6D636D;
+  font-size: 6vw;
+  padding-left: 3vw;
+  padding-top: 24vw;
+  width: 29vw;
+}
+
+.the-end {
+  display: block;
+  position: absolute;
+  margin-top: -18vw;
+  margin-left: 28vw;
+  width: 19vw;
+}
+
+.our-story3-rs {
+  border-right: 0.45vw solid #1D0E0F;
+  border-bottom:0.45vw solid #1D0E0F;
+  background-color: #741714;
+  height: 56vw;
+  width: 50vw;
+  overflow: hidden;
+}
+
+.savage {
+  width: 33vw;
+  transform: rotate(-30deg);
+  margin-left: 4vw;
+}
+
+.surprised-girl {
+  width: 40vw;
+  margin-left: 11.6vw;
+  margin-top: -17.3vw; 
+}
+
+.call-to-action {
+  border-bottom:0.45vw solid #1D0E0F;
+  background-color: #453E42;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

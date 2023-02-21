@@ -4,7 +4,12 @@ import AboutUsHeroImg from "../Assets/Images/AboutUsHeroImage.png"
 import OurStory1Img from "../Assets/Images/SVGImages/Man&Woman.svg"
 import OurStory2Img from "../Assets/Images/SVGImages/Mouth.svg"
 import OMG from "../Assets/Images/OMG.png"
+import TheEnd from "../Assets/Images/SVGImages/TheEndExplosion.svg"
+import Savage from "../Assets/Images/SVGImages/SavageGraffiti.svg"
+import SurprisedGirl from "../Assets/Images/SVGImages/SurprisedGirl.svg"
 import SpeechBubble from "../Assets/Images/SVGImages/SpeechBubbleIcon.svg"
+import JoinBtnRed from "../Components/JoinBtnRed"
+import Footer from "../Components/Footer"
 
 function AboutUs() {
   return (
@@ -58,6 +63,40 @@ function AboutUs() {
           Naw, Not really! I’m so disappointed!
           </p>
         </div>
+      </div>
+
+      <div className="about-us-our-story3">
+        <div className="our-story3-ls">
+        <img className="os3-top-img" src={SpeechBubble} alt="" />
+        <p className="os3-top-text">
+        Hey, what if we started our own group and make it exactly what we want!?
+        </p>
+
+        <img className="os3-bottom-img" src={SpeechBubble} alt="" />
+        <p className="os3-bottom-text">
+        I love it! Yes! We should do it!
+        </p>
+
+        <h1 className="os3-footer">
+        And thus, &#123;projectCode&#125; Co-op was a thing!
+        </h1>
+
+        <img src={TheEnd} alt="The end" className="the-end" />
+        </div>
+
+        <div className="our-story3-rs">
+          <img src={Savage} alt="" className="savage" />
+
+          <img src={SurprisedGirl} alt="Surprised girl" className="surprised-girl" />
+        </div>
+      </div>
+
+      <div className="call-to-action">
+        <JoinBtnRed />
+      </div>
+
+      <div className="about-us-footer">
+        <Footer />
       </div>
     </div>
   )
