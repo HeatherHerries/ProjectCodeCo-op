@@ -107,3 +107,91 @@
   font-size: 2.2vw;
 }
 
+.omg {
+  display: block;
+  position: absolute;
+  transform: rotate(-28deg);
+  margin-top: 29vw;
+  margin-left: 1vw;
+  width: 15vw;
+}
+
+.about-us-our-story2 {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.69vw solid #1D0E0F;
+  height: 56vw;
+  margin-top: .3vw;
+}
+
+.our-story2-ls {
+  border-right: 0.45vw solid #1D0E0F;
+  background-color: #6D636D;
+  height: 56vw;
+  width: 50vw;
+}
+
+.our-story2-ls img {
+  height: 50vw;
+  margin-top: 6vw;
+}
+
+.our-story2-rs {
+  background-color: #453E42;
+  height: 56vw;
+  width: 50vw;
+}
+
+.our-story2-rs-header {
+  font-family: 'Shadows Into Light', cursive;
+  color: #6D636D;
+  font-size: 6vw;
+  padding-left: 3vw;
+  padding-top: 2vw;
+}
+
+.os2-top-img {
+  display: block;
+  position: absolute;
+  margin-top: -3vw;
+  margin-left: -12vw;
+  transform: rotate(180deg);
+  width: 43vw;
+}
+
+.os2-top-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 4.5vw;
+  margin-left: -7.8vw;
+  width: 35vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+.os2-bottom-img {
+  display: block;
+  position: absolute;
+  margin-top: 27vw;
+  margin-left: 21vw;
+  transform: scaleX(-1) rotate(180deg);
+  width: 24vw;
+}
+
+.os2-bottom-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 33.5vw;
+  margin-left: 25.5vw;
+  width: 15vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+
+
+

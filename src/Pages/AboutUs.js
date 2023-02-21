@@ -2,6 +2,8 @@ import React from 'react'
 import "../Styles/AboutUs.css"
 import AboutUsHeroImg from "../Assets/Images/AboutUsHeroImage.png"
 import OurStory1Img from "../Assets/Images/SVGImages/Man&Woman.svg"
+import OurStory2Img from "../Assets/Images/SVGImages/Mouth.svg"
+import OMG from "../Assets/Images/OMG.png"
 import SpeechBubble from "../Assets/Images/SVGImages/SpeechBubbleIcon.svg"
 
 function AboutUs() {
@@ -29,10 +31,32 @@ function AboutUs() {
           <p className="os1-bottom-text">
           I love that idea! We should look and see what we can find!
           </p>
+
+          <img src={OMG} alt="OMG" className="omg" />
         </div>
 
         <div className="our-story1-rs">
           <img src={OurStory1Img} alt="" />
+        </div>
+      </div>
+
+      <div className="about-us-our-story2">
+        <div className="our-story2-ls">
+        <img src={OurStory2Img} alt="" />
+        </div>
+
+        <div className="our-story2-rs">
+          <h1 className="our-story2-rs-header">One week later...</h1>
+
+          <img className="os2-top-img" src={SpeechBubble} alt="" />
+          <p className="os2-top-text">
+          So, I have been looking all over the place for a group of coders that we can code with and I really haven’t found much… I mean a few here and there, but not much. How about you have you found anything?
+          </p>
+
+          <img className="os2-bottom-img" src={SpeechBubble} alt="" />
+          <p className="os2-bottom-text">
+          Naw, Not really! I’m so disappointed!
+          </p>
         </div>
       </div>
     </div>
