@@ -4,7 +4,8 @@
   align-items: center;
   border-bottom: 0.69vw solid #1D0E0F;
   background-color: #453E42;
-  height: 49.59vw;
+  height: 40vw;
+  overflow: hidden;
 }
 
 .footer-navigation ul li {
