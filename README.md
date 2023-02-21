@@ -35,6 +35,7 @@ https://euphonious-lollipop-b99f21.netlify.app/
 - Flexbox
 - CSS Grid
 - React
+- React Bootstrap Components
 
 ### What We Learned
 
