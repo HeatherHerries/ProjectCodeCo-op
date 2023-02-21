@@ -4,17 +4,106 @@
   align-items: center;
   border-bottom: 0.69vw solid #1D0E0F;
   background-color: #453E42;
-  height: 105vw;
+  height: 56vw;
 }
 
 .about-us-hero img {
-  width: 60vw;
+  width: 46vw;
   padding: 5vw 5vw 5vw 5vw;
 }
 
 .about-us-hero-title {
   font-family: 'Shadows Into Light', cursive;
   color: #E4E6E7;
-  font-size: 8vw;
+  font-size: 10vw;
   padding-right: 5vw;
 }
+
+.about-us-our-story1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.69vw solid #1D0E0F;
+  height: 56vw;
+}
+
+.our-story1-ls {
+  border-right: 0.45vw solid #1D0E0F;
+  background-color: #453E42;
+  height: 56vw;
+  width: 52.5vw;
+}
+
+.our-story1-rs {
+  background-color: #741714;
+  height: 56vw;
+  width: 52.5vw;
+}
+
+.our-story1-rs img {
+  height: 50vw;
+  margin-top: 6vw;
+}
+
+.os1-top-img {
+  display: block;
+  transform: scaleX(-1);
+  width: 18vw;
+  position: absolute;
+  margin-top: -3.7vw;
+  margin-left: 4vw;
+}
+
+.os1-top-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 3.7vw;
+  margin-left: 8vw;
+  width: 10vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+.os1-middle-img {
+  display: block;
+  position: absolute;
+  margin-top: 8vw;
+  margin-left: 20vw;
+  transform: scaleX(-1) rotate(180deg);
+  width: 43vw;
+}
+
+.os1-middle-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 13.6vw;
+  margin-left: 23.7vw;
+  width: 35vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
+.os1-bottom-img {
+  display: block;
+  position: absolute;
+  margin-top: 38vw;
+  margin-left: 5vw;
+  transform: rotate(180deg);
+  width: 23vw;
+}
+
+.os1-bottom-text {
+  display: block;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color: #1D0E0F;
+  margin-top: 42.2vw;
+  margin-left: 7.4vw;
+  width: 19vw;
+  text-align: center;
+  font-size: 2.2vw;
+}
+
