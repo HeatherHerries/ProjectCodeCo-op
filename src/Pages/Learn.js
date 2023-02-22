@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Learn.css";
 import JoinBtnRed from "../Components/JoinBtnRed";
+import NavBar from "../Components/NavBar";
 
 // useState for both development and design Icons then use their pagelinks as the setIcon (future state).
 
@@ -11,6 +12,7 @@ export default function Learn(props) {
     <>
       <div className="learn-container">
         <div className="learn-hero">
+          <NavBar />
           <h1>Learn</h1>
           <JoinBtnRed />
           <div className="learn-section2">

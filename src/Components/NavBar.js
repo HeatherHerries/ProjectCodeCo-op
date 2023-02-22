@@ -1,8 +1,8 @@
 import React from "react";
-import "../Styles/HomeNav.css";
 import { Link } from "react-router-dom";
+import "../Styles/NavBar.css";
 
-function HomeNav() {
+export default function NavBar() {
   const links = [
     {
       url: "/",
@@ -36,7 +36,7 @@ function HomeNav() {
   ];
 
   return (
-    <div className="home-navbar-container">
+    <div className="navbar-container">
       <div>
         <ul>
           {links.map((link) => (
@@ -49,5 +49,3 @@ function HomeNav() {
     </div>
   );
 }
-
-export default HomeNav;
