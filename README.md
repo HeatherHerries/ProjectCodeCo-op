@@ -23,6 +23,9 @@ Currently in production.
 
 ### Links
 
+You can see the current site here:
+https://euphonious-lollipop-b99f21.netlify.app/
+
 ## Our Process
 
 ### Built With...
@@ -32,6 +35,7 @@ Currently in production.
 - Flexbox
 - CSS Grid
 - React
+- React Bootstrap Components
 
 ### What We Learned
 
