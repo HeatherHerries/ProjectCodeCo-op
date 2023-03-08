@@ -1,13 +1,61 @@
 .learn-container {
   background-color: #453e42;
+  border-bottom: 0.69vw solid;
 }
 
 .learn-hero {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 50vw 50vw;
+  height: 75vw;
   font-family: "Shadows Into Light";
   color: #cbcbcb;
 }
 
+.learn-hero h1 {
+  grid: 1/3;
+  font-family: Shadows Into Light;
+  font-size: 6.06vw;
+  font-weight: 400;
+  margin-top: 28vw;
+  margin-left: 5vw;
+}
+.learn-hero h6 {
+  grid: 3/1;
+  margin-top: 15vw;
+  margin-left: 5vw;
+  font-family: Orbitron;
+  font-size: 1.72vw;
+  font-weight: 500;
+}
+.learn-hero img {
+  margin-left: 6vw;
+  margin-top: 15vw;
+  width: 30vw;
+}
+.learn-hero-btn {
+  margin-left: 13vw;
+}
+
 .learn-section2 {
-  height: 100vh;
   background-color: #453e42;
+  height: 65vw;
+  border-bottom: 0.69vw solid;
+  display: flex;
+  flex-direction: row;
+}
+.learn-section2 img {
+  width: 40vw;
+  z-index: 1;
+  margin-left: 5vw;
+}
+
+.learn-section2 h1,
+h2 {
+  font: Shadows Into Light;
+  font-weight: 400;
+  margin-top: -20vw;
+  margin-left: 17vw;
+  z-index: 2;
+  color: #cbcbcb;
 }

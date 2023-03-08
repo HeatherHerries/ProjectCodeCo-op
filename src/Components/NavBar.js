@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/NavBar.css";
+// import Navbarimage from "../Assets/Images/SVGImages/PCCLogoBlue.png";
 
 export default function NavBar() {
   const links = [
@@ -38,10 +39,11 @@ export default function NavBar() {
   return (
     <div className="navbar-container">
       <div>
-        <ul>
+        <div className="navbar-image"></div>
+        <ul className="navbar-ul">
           {links.map((link) => (
             <Link style={{ textDecoration: "none" }} to={link.url}>
-              <li>{link.text}</li>
+              <li className="navbar-li">{link.text}</li>
             </Link>
           ))}
         </ul>

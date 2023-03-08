@@ -1,7 +1,29 @@
 .navbar-container {
+  text-align: center;
+}
+.navbar-ul {
+  overflow: hidden;
+}
+
+.navbar-li {
+  color: rgb(240, 247, 242);
+  display: inline;
+  padding: 1.94vw 2.22vw;
+  font-family: Orbitron;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 4.17vw;
+  letter-spacing: 0em;
+}
+.navbar-image {
+  position: absolute;
+  width: 469px;
   height: 475px;
-  width: 1233px;
-  left: 103px;
+  left: 450px;
   top: -162px;
-  border-radius: 0px;
+
+  /* background: url(PCCLogoBlue.png); */
+}
+.navbar-li:hover {
+  transition: 300ms ease-in;
 }

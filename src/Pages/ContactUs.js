@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/ContactUs.css";
 import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
 
 // Make an array with the 3 images/texts an Map thru them
 export default function ContactUs(props) {
@@ -12,6 +13,7 @@ export default function ContactUs(props) {
           <div>Hit Us Up</div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
