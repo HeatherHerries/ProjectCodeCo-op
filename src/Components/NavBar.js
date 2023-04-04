@@ -6,7 +6,7 @@ import NavbarImg from "../Assets/Images/SVGImages/PCCLogoBlueTransparent.svg"
 export default function NavBar() {
    return (
     <div className="navbar-container">
-      <div>
+      <div className="nb-items">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -20,9 +20,9 @@ export default function NavBar() {
             <Link to="/Projects">Projects</Link>
           </li>
 
-          <li>
-            <img src={NavbarImg} alt="" />
-          </li>
+          <div>
+            <img className="nb-image"src={NavbarImg} alt="" />
+          </div>
 
           <li>
             <Link to="/Learn">Learn</Link>

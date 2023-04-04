@@ -1,29 +1,37 @@
 .navbar-container {
-  text-align: center;
-}
-.navbar-ul {
-  overflow: hidden;
+  background-color: #453E42;
+  border-bottom: 0.49vw solid #1D0E0F;
 }
 
-.navbar-li {
-  color: rgb(240, 247, 242);
-  display: inline;
-  padding: 1.94vw 2.22vw;
-  font-family: Orbitron;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 4.17vw;
-  letter-spacing: 0em;
+.nb-items ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 4vw;
+  padding-top: .5vw;
 }
-.navbar-image {
-  position: absolute;
-  width: 469px;
-  height: 475px;
-  left: 450px;
-  top: -162px;
 
-  /* background: url(PCCLogoBlue.png); */
+.nb-items ul li a{
+  text-decoration: none;
+  color: #E4E6E7;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8vw;
 }
-.navbar-li:hover {
+
+.nb-items ul li {
+  transition: 300ms ease-out;
+}
+
+.nb-items ul li:hover {
+  transform: scale(1.2);
   transition: 300ms ease-in;
+}
+
+.nb-image {
+  width: 33vw;
+  margin-top: -10.8vw;
+  margin-bottom: -12vw;
+  margin-left: -8vw;
+  margin-right: -8vw;
 }
