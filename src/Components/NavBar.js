@@ -1,51 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/NavBar.css";
-// import Navbarimage from "../Assets/Images/SVGImages/PCCLogoBlue.png";
+import NavbarImg from "../Assets/Images/SVGImages/PCCLogoBlueTransparent.svg"
 
 export default function NavBar() {
-  const links = [
-    {
-      url: "/",
-      text: "Home",
-    },
-
-    {
-      url: "/AboutUs",
-      text: "About Us",
-    },
-
-    {
-      url: "/Projects",
-      text: "Projects",
-    },
-
-    {
-      url: "/Learn",
-      text: "Learn",
-    },
-
-    {
-      url: "/Merch",
-      text: "Merch",
-    },
-
-    {
-      url: "/ContactUs",
-      text: "Contact Us",
-    },
-  ];
-
-  return (
+   return (
     <div className="navbar-container">
       <div>
-        <div className="navbar-image"></div>
-        <ul className="navbar-ul">
-          {links.map((link) => (
-            <Link style={{ textDecoration: "none" }} to={link.url}>
-              <li className="navbar-li">{link.text}</li>
-            </Link>
-          ))}
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="/AboutUs">About Us</Link>
+          </li>
+
+          <li>
+            <Link to="/Projects">Projects</Link>
+          </li>
+
+          <li>
+            <img src={NavbarImg} alt="" />
+          </li>
+
+          <li>
+            <Link to="/Learn">Learn</Link>
+          </li>
+
+          <li>
+            <Link to="/Merch">Merch</Link>
+          </li>
+
+          <li>
+            <Link to="/ContactUs">Contact Us</Link>
+          </li>
+
         </ul>
       </div>
     </div>

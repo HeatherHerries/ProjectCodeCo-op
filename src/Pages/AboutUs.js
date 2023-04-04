@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/AboutUs.css"
+import NavBar from "../Components/NavBar"
 import AboutUsHeroImg from "../Assets/Images/AboutUsHeroImage.png"
 import OurStory1Img from "../Assets/Images/SVGImages/Man&Woman.svg"
 import OurStory2Img from "../Assets/Images/SVGImages/Mouth.svg"
@@ -14,6 +15,9 @@ import Footer from "../Components/Footer"
 function AboutUs() {
   return (
     <div>
+      <div className="nav-bar">
+        <NavBar />
+      </div>
       <div className="about-us-hero">
         <img src={AboutUsHeroImg} alt="The two founders of ProjectCode Co-op" />
         <h1 className="about-us-hero-title">Two Coders, One Desire</h1>
