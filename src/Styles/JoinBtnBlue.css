@@ -1,10 +1,20 @@
-.btn-blue {
+.join-btn-blue {
   background-color: #191937;
   border: none;
-  color: #E4E6E7;
   font-family: 'Shadows Into Light', cursive;
   font-size: 2vw;
   height: 8vw;
   width: 14.17vw;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms ease-out;
+}
+
+.join-btn-blue .button-link {
+  text-decoration: none;
+  color:#E4E6E7;
+}
+.join-btn-blue:hover {
+  transform: scale(1.08);
+  transition: 300ms ease-in;
 }
